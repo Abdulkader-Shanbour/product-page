@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="./css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div id="image-top">
+        <img src="./assets/top-l.jpg" alt="Black Friday Sale Banner">
+        <h3>Black Friday Sale - Save $100</h3>
+        <img src="./assets/top.jpg">
+    </div>
+    
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="margin-right: 30px; margin-left: 0;">
+                <img src="./assets/Frame 3.svg" style="margin-right: 30px; margin-left: 0;" alt="Firebee Logo">
+            </a>
+            <div style="width: 20px;"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            
+            <div id="buy-now-mobile" class="d-lg-none" >
+                <button class="" >Buy now</button>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Signals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item d-lg-none" id="profile-moblie">
+                        <a class="nav-link" href="#"id="profile-moblie" >
+                            <img src="./assets/profile.png" width="30px" height="30px" alt="Profile">
+                        </a>
+                    </li>
+    
+          
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="#">
+                            <img src="./assets/profile.png" width="25px" height="25px" alt="Profile">
+                        </a>
+                    </li>
+                </ul>
+    
+                <div style="display: flex; ">
+          
+                    <div class="d-flex d-none d-lg-block mx-auto" id="buy" >
+                    <button >Buy now</button>
+                </div>
+                <div style="width: 20px;"></div>
+    
+          
+                <div class="dropdown d-none d-lg-block" id="profile" >
+                    <button class="btn btn-primary " type="button" id="dropdownMenuButton"  aria-expanded="false">
+                        <img src="./assets/profile.png" width="25px" height="25px">
+                    </button>
+
+                </div>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="order-md-1">
+    
+    
+    <!-- Product-->
+    <div class="order-md-1 "  id="product">
+        <div class="row">
+            
+        <div class="col-md-6 col-12 order-2 order-md-1"> 
+            <div class="d-flex mb-3 mt-2">
+                <img src="./assets/icnirp.png" width="112px" height="112px" alt="icnirp Logo">
+                <div style="width: 20px;"></div>
+                <img src="./assets/fc.png" width="112px" height="112px" alt="fc Logo">
+            </div>
+
+    
+            <div id="productCarousel" class="carousel slide" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/product1.jpg" width="300px" class="d-block " alt="Product Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide1.jpg" class="d-block w-100" alt="Product Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide2.jpg" class="d-block w-100" alt="Product Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide3.jpg" class="d-block w-100" alt="Product Image 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/slide4.jpg" class="d-block w-100" alt="Product Image 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div style="height: 20px;"></div>
+            
+            
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 mb-4"> 
+                    <div class="card h-100">
+                      <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/Union (1).png" width="75px" height="55px" alt="Money-back Guarantee" class="mb-3">
+                        <p class="card-text" style="font-size: 16px;">30-day Money-back Guarantee</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 mb-4"> 
+                    <div class="card h-100">
+                      <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/Vector.png" width="75px" height="55px" alt="Free Shipping" class="mb-3">
+                        <p class="card-text" style="font-size: 16px;">Free Shipping within USA</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-6 col-sm-6 mb-4"> 
+                    <div class="card h-100">
+                      <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/Union.png" width="75px" height="55px" alt="Signal Catalogue Updates" class="mb-3">
+                        <p class="card-text" style="font-size: 16px;">Signal Catalogue Updates Included</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 mb-4"> 
+                    <div class="card h-100">
+                      <div class="card-body d-flex flex-column align-items-center">
+                        <img src="./assets/Vector (1).png" width="75px" height="55px" alt="Customer Support" class="mb-3">
+                        <p class="card-text" style="font-size: 16px;">Customer Support via E-mail, Phone, and Chat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                            
+           
+           
+              
+        </div>
+
+    
+<!-- Product details -->
+    <div class="container col-md-6 col-12 order-1 order-md-2">
+        <h2>Firebee Headband</h2>
+        <div class="star-rating">
+            <span class="full-star">★</span>
+            <span class="full-star">★</span>
+            <span class="full-star">★</span>
+            <span class="full-star">★</span>
+            <span class="half-star">★</span>
+            <span class="review-count">267 Reviews</span>
+        </div>
+        <p>Order today and receive your Firebee by June 15th, 2021</p>
+
+    <div class="product-details " >
+        <div class="product-header d-flex " style="justify-content: space-between;">
+            <h3>Firebee Starter Kit</h3>
+            <div class="price-container">
+                <span class="old-price">$999.00</span>
+                <span class="price">$379.00</span>
+            </div>
+        </div>
+        <h4 class="badge text-center p-1 bg-primary">Most Popular Kit</h4>
+        <ul class="list-group gap-3">
+            <li class=" d-flex ">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">Access to 7 signals (and future signal releases)</span>
+            </li>
+            <li class=" d-flex">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">Firebee Headband</span>
+            </li>
+            <li class=" d-flex">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">$19/month membership, first 2 months free</span>
+            </li>
+        </ul>
+        <p>
+            The starter kit is the most affordable way to get started with Firebee. Pay $299 for the Firebee headband and access to the entire Firebee Signal Catalogue for only $19 a month.
+            <strong>Membership can be cancelled anytime. No contracts. Satisfaction guaranteed.</strong>
+        </p>
+    </div>
+
+    <br>
+    <div class="product-details">
+        <div style="display: flex; justify-content: space-between;">
+            <h3>Founder’s Kit</h3>
+            <div class="price-container">
+                
+                <span class="price">$799.00</span>
+            </div>
+        </div>
+       
+        <ul class="list-group gap-3">
+            <li class="  d-flex">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">Access to 7 signals (and future signal releases)</span>
+            </li>
+            <li class="  d-flex">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">Firebee Headband </span>
+            </li>
+            <li class="  d-flex">
+                <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                <span class="ms-2">No Monthly Membership    </span>
+            </li>
+        </ul>
+        <p>
+            The Founders kit allows you to get the Firebee headband and lifetime access to the entire Firebee Signal Catalogue for a one-time payment. The Founders is kit can be paid through Affirm allowing customers to make small payments of $73 a month. </p>
+    </div>
+    <div class="container ">
+        <button id="add-card">
+            <p>Add to cart</p>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_3_207)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M26.8392 16.1871C26.99 16.0906 27.1333 15.9789 27.2656 15.8469C27.7689 15.3441 28.0117 14.6823 27.9996 14.0238C28.0117 13.3653 27.7689 12.7018 27.2656 12.199C27.1343 12.0687 26.99 11.957 26.8392 11.8605L16.7041 1.73803C16.212 1.24544 15.5658 1 14.9214 1C14.277 1 13.6312 1.24544 13.1385 1.73803C12.1538 2.7215 12.1538 4.31604 13.1385 5.29951L19.2473 11.4001H4.6C3.16405 11.4001 2 12.5647 2 14.0001C2 15.4355 3.16405 16.6001 4.6 16.6001H19.2915L13.1834 22.7007C12.1987 23.6859 12.1987 25.2804 13.1834 26.2622C14.1682 27.2457 15.7651 27.2457 16.7495 26.2639L26.8392 16.1871Z" fill="white"/>
+                </g>
+                <defs>
+                    <filter id="filter0_d_3_207" x="0" y="0" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="1"/>
+                        <feGaussianBlur stdDeviation="1"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_207"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_207" result="shape"/>
+                    </filter>
+                </defs>
+            </svg>
+        </button>
+        <div style="height: 20px;"></div>
+        <div class="container">
+            <img src="./assets/pay.png"  width="40%" height="44px">
+        </div>   
+       </div>
+      </div>
+     </div>
+   </div>
+  </section>
+    
+    <section id="money">
+        <div class="money-container">
+            <div id="image-2">
+                <img src="./assets/money.png" alt="Money Back Guarantee">
+            </div>
+            <div id="money-text">
+                <h1>30 Day Money Back Guarantee</h1>
+                <h5>At Firebee we believe in building quality products that actually work. Firebee and its partners have invested over $85 million in research and development to create the highest quality wearable for customers to enjoy. If for any reason you are not satisfied with your Firebee headband, we will happily refund your purchase.</h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="signals">
+        <div class="container" >
+            <div id="image-flow">
+                <img src="./assets/Vector 3 (Stroke).png" width="375px" height="200px">
+            </div>
+          <div class="" >
+            
+            <div id="signals-title">
+                <h1> Firebee Signals</h1>
+                <h3>A signal for every situation</h3>
+    
+            </div>
+                
+        </div>
+              
+    </div>
+    
+            <div class="row" style="display: flex;">
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/bedtime.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <!-- <h1>30 Day Money Back Guarantee</h1> -->
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/deep-sleep.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <!-- <h1>30 Day Money Back Guarantee</h1> -->
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/relax.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/calm.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/focus.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/happy.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/alert.png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 cards">
+                    <div >
+                        <img class="image-200" src="./assets/Vector (2).png" alt="Money Back Guarantee">
+                    </div>
+                    <div  class="money1-text">
+                        <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
+                    </div>
+                </div>
+                <div class="image-flow-2"  style="width: auto;">
+                    <img src="./assets/Vector 3 (Stroke).png" width="375px" height="200px" >
+                </div>                
+            </div>
+        
+    </section>
+
+    <section id="present">
+        <div class="contanier">
+            <h1 style="text-align: center;">What will Firebee do for me?</h1>
+            <h5 style="text-align: center;">Firebee will help you gently nudge yourself into a different mental state</h5>
+            <div class="row present-section" >
+                <div class="col-md-5 col-sm-4">
+                    <img src="./assets/person_for_product.png" width="90%" height="90%">
+                </div>
+                <div  class="col-md-7 col-sm-4">
+                    <ul class="  " >
+                        <li class="  d-flex ">
+                            
+                            <img src="./assets/Subtract.png" width="32px" height="32px" alt="Checkmark">
+                            <span class=" ">Can’t sleep? Turn on the <strong id="deep-sleep"> deep sleep </strong> signal </span>
+                        </li>
+                        <li class="  d-flex gap-2">
+                            <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                            <span class=" ">Feeling tired? Turn on the <strong id="alert">alert </strong> signal </span>
+                        </li>
+                        <li class="  d-flex gap-2">
+                            <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                            <span class=" ">Feeling anxious? Turn on the <strong id="calm"> calm </strong> signal</span>
+                        </li>
+                        <li class="  d-flex gap-2"> 
+                            <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                            <span class=" ">Feeling unproductive? Turn on the <strong id="focus"> focus  </strong> signal </span>
+                        </li>
+                        <li class="  d-flex gap-2"> 
+                            <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                            <span class=" ">Feeling blue? Turn on the <strong id="happy"> happy </strong> signal </span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br/>
+    <section id="product-provider">
+        <div class="container ">
+            <h1>What’s in the box?</h1>
+            <div class="row">
+                <img src="./assets/product image.png" width="30%" height="auto">
+                <p><strong> featured on </strong></p>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width"  > 
+                    <img src="./assets/gq.png"  >
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                    <img src="./assets/the-guardian.png"  >
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                    <img src="./assets/the-new-york.png"  >
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                    <img src="./assets/mashable.png"  >
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                    <img src="./assets/cw.png"  >
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                    <img src="./assets/the-wall.png"  >
+                </div>
+
+
+            </div>
+            <div class="pseudo-line"></div>
+            <div class="row  w-100 text-center feature" >
+                <div class=" col-md-4 col-sm-12 col-xs-12 ">
+                    <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                    <span class="ms-2">1 Firebeeheadband </span>        
+                </div>
+                
+                <div class="col-md-4 col-sm-3 col-xs-4">
+                    <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                    <span class="ms-2">1 Charging cable</span>        
+                </div>
+                
+                <div class="col-md-4 col-sm-3 col-xs-4">
+                    <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
+                    <span class="ms-2">1 User manual</span>        
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    
+
+    <section id="faq">
+        <div class="col-md-8 col-sm-6 col-xs-4 mx-auto gap-2 p-4">
+            <h1 class="text-center mb-4">Frequently Asked Questions</h1>
+            <div class="faq-line"></div>
+        
+            <div class="faq-section">
+                <div class="faq-item">
+                    <h3 class="faq-question d-flex justify-content-between align-items-center">
+                        <span>Is Firebee Safe?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer1" aria-expanded="false" aria-controls="answer1">+</button>
+                    </h3>
+                    <div id="answer1" class="collapse faq-answer">
+                        <p>Yes, Firebee is safe. Firebee meets the safety standards set by ICNIRP (International Commission on Non-Ionizing Radiation Protection). Firebee is <span>3000x less powerful </span> than your average smartphone. Firebee uses an ultra-low signal that is completely safe for home use. The technology behind Firebee has been rigorously safety tested and has over 300,000 hours tested by users for efficacy and safety. </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question d-flex justify-content-between align-items-center">
+                        <span>How Does Firebee work?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer2" aria-expanded="false" aria-controls="answer2">+</button>
+                    </h3>
+                    <div id="answer2" class="collapse faq-answer">
+                        <p>Firebee uses safe ultra-low energy magnetic signals to gently nudge you into a different mental state.
+
+                            Every Firebee signal is made by studying real world magnetic signatures. Did you know caffeine has a unique one of a kind magnetic signature? It’s a relatively unknown fact that every molecule on earth actually has a unique magnetic signature.
+                            
+                            Firebee using patented technology is able to take a magnetic signature and play it back through the Firebee headband. When you use the alert signal with Firebee you are actually playing back the magnetic signature of caffeine which our bodies already recognize. 
+                            
+                            Within minutes of feeling the ultra-low magnetic signal of caffeine our body begins to feel more alert and awake. 
+                            
+                            Firebee signal is 3000 times less powerful than a smartphone and completely safe to use. </p>
+                    </div>
+                </div>
+                <div class="faq-item"> 
+                    <h3 class="faq-question d-flex justify-content-between align-items-center">
+                        <span>How Does Firebee work?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer2">+</button>
+                    </h3>
+                    <div id="answer3" class="collapse faq-answer">
+                        <p>Firebee has a fully adjustable headband you can adjust to fit comfortably and snug on your head.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"> 
+                    <h3 class="faq-question d-flex justify-content-between align-items-center">
+                        <span>How Does Firebee work?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer2">+</button>
+                    </h3>
+                    <div id="answer4" class="collapse faq-answer">
+                        <p>Firebee is designed to be used on command. If you wish to turn off a signal, the effects wear off within minutes.</p>
+                    </div>
+                </div>
+                <div class="faq-item"> 
+                    <h3 class="faq-question d-flex justify-content-between align-items-center">
+                        <span>How Does Firebee work?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer5" aria-expanded="false" aria-controls="answer2">+</button>
+                    </h3>
+                    <div id="answer5" class="collapse faq-answer">
+                        <p>Firebee comes with a charging dock and a charging cable. Just set up the charging dock on a nightstand and plug it in. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section >
+        <div class="w-100 footer">
+            <div class=" footer-item">
+            <div class="container d-flex p-5">
+                <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" >
+                <h4>
+                    <a>
+                        About
+                    </a>
+                </h4>
+                 
+                <p>
+                    <a>
+                        Home Product
+                    </a>
+                </p>
+                
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" >
+                <h4> 
+                     
+                    <a>
+                        Support
+                    </a>
+                </h4>
+                <p>   
+                    <a>
+                        Activate Login           
+                    </a>
+                </p>    
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-4 mx-4 gap-2" >
+                <h4>
+                    <a>
+                        Find Us On
+                    </a>
+                </h4>       
+                <div class=" col-md-12  col-sm-12 mx-auto justify-content-between social-icons">
+                    <a >
+                        <svg width="42" height="30" viewBox="0 0 42 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.939897 25.3715C1.7968 28.4398 4.41824 29.0012 4.59312 29.1089C8.90739 30.2953 33.0897 30.2988 37.4686 29.1089C40.4678 28.2332 41.0187 25.548 41.1219 25.3715C42.2638 19.2383 42.339 11.2426 41.0694 4.28326L41.1219 4.62928C40.265 1.56095 37.6435 0.999537 37.4686 0.891845C33.2121 -0.275111 8.96685 -0.319247 4.59312 0.891845C1.59394 1.76927 1.04308 4.45274 0.939897 4.62928C-0.282508 11.0749 -0.343716 18.4703 0.939897 25.3715ZM16.8294 21.4469V8.57152L27.7873 15.0189L16.8294 21.4469Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                    <a >
+                        <svg width="37" height="30" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37 3.55154C35.6241 4.15385 34.1579 4.55308 32.6294 4.74692C34.2019 3.81 35.4021 2.33769 35.9663 0.563077C34.5002 1.43538 32.8814 2.05154 31.1563 2.39538C29.7642 0.916154 27.7801 0 25.6156 0C21.4161 0 18.0352 3.40154 18.0352 7.57154C18.0352 8.17154 18.0861 8.74846 18.2109 9.29769C11.9047 8.99077 6.32469 5.97462 2.57612 1.38C1.92169 2.51308 1.53781 3.81 1.53781 5.20615C1.53781 7.82769 2.89062 10.1515 4.90712 11.4969C3.68844 11.4738 2.49288 11.1208 1.48 10.5646C1.48 10.5877 1.48 10.6177 1.48 10.6477C1.48 14.3262 4.10931 17.3815 7.55725 18.0854C6.93981 18.2538 6.26688 18.3346 5.5685 18.3346C5.08288 18.3346 4.59262 18.3069 4.13244 18.2054C5.11525 21.2031 7.90413 23.4069 11.2203 23.4785C8.6395 25.4931 5.36269 26.7069 1.81531 26.7069C1.19325 26.7069 0.596625 26.6792 0 26.6031C3.36006 28.7654 7.34219 30 11.6365 30C25.5947 30 33.226 18.4615 33.226 8.46C33.226 8.12538 33.2144 7.80231 33.1982 7.48154C34.7037 6.41538 35.9686 5.08385 37 3.55154Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                    <a  >
+                        <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.0789 5.48542H16V0.232632C15.496 0.161053 13.7629 0 11.7444 0C7.53271 0 4.64761 2.73514 4.64761 7.76219V12.3887H0V18.2609H4.64761V30H10.3458V18.2623H14.8054L15.5134 12.39H10.3445V8.34445C10.3458 6.64721 10.7884 5.48542 13.0789 5.48542Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                    <a  >
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9238 8.82011C29.8535 7.22609 29.5956 6.13021 29.2263 5.18062C28.8453 4.17266 28.2591 3.27023 27.4912 2.52003C26.7408 1.75816 25.8323 1.16616 24.8358 0.791173C23.8805 0.421913 22.7902 0.164141 21.1958 0.0938601C19.5896 0.0176274 19.0797 0 15.0058 0C10.932 0 10.4221 0.0176274 8.82179 0.0879081C7.22747 0.158189 6.13138 0.41619 5.18184 0.785221C4.17345 1.16616 3.27085 1.75221 2.52051 2.52003C1.7585 3.27023 1.16661 4.17861 0.791324 5.1749C0.421993 6.13021 0.164172 7.22014 0.0938781 8.81416C0.0176307 10.4201 0 10.9299 0 15.003C0 19.076 0.0176307 19.5859 0.0879248 21.1858C0.158219 22.7799 0.416269 23.8757 0.785599 24.8253C1.16661 25.8333 1.7585 26.7357 2.52051 27.4859C3.27085 28.2478 4.17941 28.8398 5.17589 29.2148C6.13138 29.584 7.22152 29.8418 8.81607 29.9121C10.4161 29.9826 10.9263 30 15.0001 30C19.074 30 19.5839 29.9826 21.1842 29.9121C22.7785 29.8418 23.8746 29.584 24.8241 29.2148C26.8407 28.4353 28.435 26.8413 29.2146 24.8253C29.5837 23.87 29.8418 22.7799 29.9121 21.1858C29.9824 19.5859 30 19.076 30 15.003C30 10.9299 29.994 10.4201 29.9238 8.82011ZM27.2217 21.0686C27.1571 22.5338 26.911 23.3249 26.7058 23.8524C26.2016 25.1593 25.1641 26.1966 23.8569 26.7007C23.3294 26.9058 22.5323 27.1519 21.0727 27.2162C19.49 27.2868 19.0154 27.3042 15.0118 27.3042C11.0082 27.3042 10.5276 27.2868 8.9507 27.2162C7.48529 27.1519 6.69397 26.9058 6.16642 26.7007C5.51591 26.4603 4.92379 26.0794 4.44318 25.5812C3.94494 25.0948 3.56393 24.5087 3.32351 23.8583C3.11836 23.3309 2.87221 22.5338 2.80787 21.0746C2.73735 19.4922 2.71995 19.0174 2.71995 15.0147C2.71995 11.0119 2.73735 10.5313 2.80787 8.95495C2.87221 7.48981 3.11836 6.69864 3.32351 6.17119C3.56393 5.52058 3.94494 4.9288 4.44913 4.44806C4.93547 3.94991 5.52163 3.56898 6.17237 3.32883C6.69992 3.12371 7.4972 2.87762 8.95666 2.81306C10.5393 2.74278 11.0142 2.72515 15.0175 2.72515C19.027 2.72515 19.5017 2.74278 21.0786 2.81306C22.544 2.87762 23.3353 3.12371 23.8629 3.32883C24.5134 3.56898 25.1055 3.94991 25.5861 4.44806C26.0844 4.93453 26.4654 5.52058 26.7058 6.17119C26.911 6.69864 27.1571 7.49554 27.2217 8.95495C27.292 10.5373 27.3096 11.0119 27.3096 15.0147C27.3096 19.0174 27.292 19.4863 27.2217 21.0686ZM15 7.27575C10.7356 7.27575 7.27575 10.7354 7.27575 15C7.27575 19.2646 10.7356 22.7243 15 22.7243C19.2646 22.7243 22.7243 19.2646 22.7243 15C22.7243 10.7354 19.2646 7.27575 15 7.27575ZM15 20.0105C12.2335 20.0105 9.98947 17.7667 9.98947 15C9.98947 12.2333 12.2335 9.98947 15 9.98947C17.7667 9.98947 20.0105 12.2333 20.0105 15C20.0105 17.7667 17.7667 20.0105 15 20.0105ZM23.0231 8.80399C24.014 8.80399 24.8173 7.99325 24.8173 6.99336C24.8173 5.99324 24.014 5.18272 23.0231 5.18272C22.0325 5.18272 21.2292 5.99324 21.2292 6.99336C21.2292 7.99325 22.0325 8.80399 23.0231 8.80399Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                    <a>
+                        <svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.4019 0C4.30422 0.00125002 0 5.27007 0 11.0152C0 13.6789 1.46592 17.0027 3.81312 18.0565C4.48269 18.3628 4.39407 17.989 4.9701 15.7515C5.01564 15.5652 4.99226 15.404 4.84456 15.2302C1.48931 11.2889 4.18975 3.1863 11.9231 3.1863C23.115 3.1863 21.0238 18.914 13.8702 18.914C12.0265 18.914 10.6529 17.444 11.0873 15.6252C11.6141 13.4589 12.6456 11.1302 12.6456 9.56888C12.6456 5.63383 6.87297 6.21759 6.87297 11.4314C6.87297 13.0427 7.43423 14.1302 7.43423 14.1302C7.43423 14.1302 5.5769 21.7503 5.23227 23.1741C4.64885 25.5841 5.31104 29.4854 5.36889 29.8217C5.40458 30.0067 5.6089 30.0654 5.72337 29.9129C5.90676 29.6692 8.1518 26.4166 8.78076 24.0653C9.00969 23.2091 9.94882 19.734 9.94882 19.734C10.5679 20.869 12.3526 21.8191 14.2543 21.8191C19.9112 21.8191 24 16.769 24 10.5026C23.9803 4.49506 18.9179 0 12.4019 0Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" > 
+        
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" > 
+                
+            </div>
+        </div>
+            <div class="footer-line"></div>
+             
+            <div class="footer-image p-4 ">
+                <div class="d-flex justify-content-between "   >
+                    <img src="./assets/firebee.png" alt="Firebee Logo" width="214px" height="50px">
+                    <h5 >Privacy Policy Terms of Service</h5>
+                </div>
+                <div class="m-3">
+                    <h5>
+                        Copyright © 2020 Firebee Technologies, Inc. All rights reserved.
+                    </h5>
+
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-4 m-3 " id="text-light">
+                    <h6>The statements on this page have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</h6>
+                </div>
+                
+             
+            </div>         
+          </div>
+        </div>
+    </section>
+
+
+    
+
+    
+
+    <!-- Bootstrap JS + Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const faqButtons = document.querySelectorAll('.toggle-btn');
+    
+        faqButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const target = document.querySelector(this.getAttribute('data-bs-target'));
+                const expanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !expanded);
+                this.textContent = !expanded ? '-' : '+';
+            });
+    
+            const target = document.querySelector(button.getAttribute('data-bs-target'));
+            
+            target.addEventListener('shown.bs.collapse', () => {
+                button.textContent = '-';
+            });
+    
+            target.addEventListener('hidden.bs.collapse', () => {
+                button.textContent = '+';
+            });
+        });
+    });
+    </script>
+</body>
+</html>
+
