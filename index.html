@@ -62,7 +62,7 @@
     
                 <div style="display: flex; ">
           
-                    <div class="d-flex d-none d-lg-block mx-auto" id="buy" >
+                <div class="d-flex d-none d-lg-block mx-auto" id="buy" >
                     <button >Buy now</button>
                 </div>
                 <div style="width: 20px;"></div>
@@ -81,98 +81,77 @@
             </div>
         </div>
     </nav>
-    <section class="order-md-1">
+    <section class="">
     
     
     <!-- Product-->
-    <div class="order-md-1 "  id="product">
+    <div class="container "  id="product" >
         <div class="row">
             
-        <div class="col-md-6 col-12 order-2 order-md-1"> 
-            <div class="d-flex mb-3 mt-2">
-                <img src="./assets/icnirp.png" width="112px" height="112px" alt="icnirp Logo">
-                <div style="width: 20px;"></div>
-                <img src="./assets/fc.png" width="112px" height="112px" alt="fc Logo">
+        <div class="col-md-6 col-sm-12 col-lg-6 order-1"> 
+            <div class="d-flex m-3 col-md-6 col-6 ">
+                <div class="m-2">
+                 <img src="./assets/icnirp.png" width="auto" height="auto" alt="icnirp Logo">
+                </div>
+                <div class="m-2">
+                 <img src="./assets/fc.png" width="auto" height="auto" alt="fc Logo">
+                </div>
             </div>
 
     
-            <div id="productCarousel" class="carousel slide" data-bs-interval="3000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/product1.jpg" width="300px" class="d-block " alt="Product Image 1">
+            <div class="m-3">
+                <div id="productCarousel" class="carousel slide" data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/product1.jpg" width="300px" class="d-block w-100" alt="Product Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide1.jpg" width="300px" class="d-block w-100" alt="Product Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide2.jpg" width="300px" class="d-block w-100" alt="Product Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide3.jpg" width="300px" class="d-block w-100" alt="Product Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/slide4.jpg" width="300px" class="d-block w-100" alt="Product Image 5">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/slide1.jpg" class="d-block w-100" alt="Product Image 2">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        
+                <div class="thumbnail-container m-3 justify-content-between">
+                    <div class="thumbnail active" data-bs-target="#productCarousel" data-bs-slide-to="0">
+                        <img src="./assets/product1.jpg" alt="Thumbnail 1">
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/slide2.jpg" class="d-block w-100" alt="Product Image 3">
+                    <div class="thumbnail" data-bs-target="#productCarousel" data-bs-slide-to="1">
+                        <img src="./assets/slide1.jpg" alt="Thumbnail 2">
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/slide3.jpg" class="d-block w-100" alt="Product Image 4">
+                    <div class="thumbnail" data-bs-target="#productCarousel" data-bs-slide-to="2">
+                        <img src="./assets/slide2.jpg" alt="Thumbnail 3">
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/slide4.jpg" class="d-block w-100" alt="Product Image 5">
+                    <div class="thumbnail" data-bs-target="#productCarousel" data-bs-slide-to="3">
+                        <img src="./assets/slide3.jpg" alt="Thumbnail 4">
+                    </div>
+                    <div class="thumbnail" data-bs-target="#productCarousel" data-bs-slide-to="4">
+                        <img src="./assets/slide4.jpg" alt="Thumbnail 5">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-
-            <div style="height: 20px;"></div>
-            
-            
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-6 col-sm-6 mb-4"> 
-                    <div class="card h-100">
-                      <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/Union (1).png" width="75px" height="55px" alt="Money-back Guarantee" class="mb-3">
-                        <p class="card-text" style="font-size: 16px;">30-day Money-back Guarantee</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 mb-4"> 
-                    <div class="card h-100">
-                      <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/Vector.png" width="75px" height="55px" alt="Free Shipping" class="mb-3">
-                        <p class="card-text" style="font-size: 16px;">Free Shipping within USA</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="col-md-6 col-sm-6 mb-4"> 
-                    <div class="card h-100">
-                      <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/Union.png" width="75px" height="55px" alt="Signal Catalogue Updates" class="mb-3">
-                        <p class="card-text" style="font-size: 16px;">Signal Catalogue Updates Included</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 mb-4"> 
-                    <div class="card h-100">
-                      <div class="card-body d-flex flex-column align-items-center">
-                        <img src="./assets/Vector (1).png" width="75px" height="55px" alt="Customer Support" class="mb-3">
-                        <p class="card-text" style="font-size: 16px;">Customer Support via E-mail, Phone, and Chat</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                            
-           
-           
               
         </div>
-
+ 
     
 <!-- Product details -->
-    <div class="container col-md-6 col-12 order-1 order-md-2">
+    <div class="container  col-md-6 col-12 order-2 order-md-2">
         <h2>Firebee Headband</h2>
         <div class="star-rating">
             <span class="full-star">★</span>
@@ -184,16 +163,16 @@
         </div>
         <p>Order today and receive your Firebee by June 15th, 2021</p>
 
-    <div class="product-details " >
-        <div class="product-header d-flex " style="justify-content: space-between;">
+        <div class="product-details-pro col-10 w-80 body-card p-3">
+            <div class="product-header d-flex " style="justify-content: space-between;">
             <h3>Firebee Starter Kit</h3>
             <div class="price-container">
                 <span class="old-price">$999.00</span>
                 <span class="price">$379.00</span>
             </div>
         </div>
-        <h4 class="badge text-center p-1 bg-primary">Most Popular Kit</h4>
-        <ul class="list-group gap-3">
+        <h4 class="badge text-center  bg-primary">Most Popular Kit</h4>
+        <ul class="list-group gap-1">
             <li class=" d-flex ">
                 <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
                 <span class="ms-2">Access to 7 signals (and future signal releases)</span>
@@ -214,7 +193,7 @@
     </div>
 
     <br>
-    <div class="product-details">
+    <div class="product-details card-body col-10">
         <div style="display: flex; justify-content: space-between;">
             <h3>Founder’s Kit</h3>
             <div class="price-container">
@@ -260,12 +239,48 @@
                 </defs>
             </svg>
         </button>
-        <div style="height: 20px;"></div>
-        <div class="container">
-            <img src="./assets/pay.png"  width="40%" height="44px">
-        </div>   
+      
        </div>
       </div>
+      
+      <div class="card-body col-6 order-sm-6 order-xs-6 order-4 items">
+        <div class="row">
+      
+          <div class="col-md-6 col-6 col-sm-6 mb-4"> 
+              <div class="card-body d-flex flex-column align-items-center">
+                <img src="./assets/Union (1).png" width="75px" height="55px" alt="Money-back Guarantee" class="mb-3">
+                <p class="card-text" style="font-size: 16px;">30-day Money-back Guarantee</p>
+              </div>
+          </div>
+         
+          <div class="col-md-6 col-sm-6 col-6 mb-4"> 
+            <div class="card-body d-flex flex-column align-items-center">
+                <img src="./assets/Vector.png" width="75px" height="55px" alt="Free Shipping" class="mb-3">
+                <p class="card-text" style="font-size: 16px;">Free Shipping within USA</p>
+              </div>
+            </div>
+          
+          <div class="col-md-6 col-sm-6 col-6 mb-4"> 
+             <div class="card-body d-flex flex-column align-items-center">
+                <img src="./assets/Union.png" width="75px" height="55px" alt="Signal Catalogue Updates" class="mb-3">
+                <p class="card-text" style="font-size: 16px;">Signal Catalogue Updates Included</p>
+             </div>
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-6 mb-4"> 
+            <div class="card-body d-flex flex-column align-items-center">
+                <img src="./assets/Vector (1).png" width="75px" height="55px" alt="Customer Support" class="mb-3">
+                <p class="card-text" style="font-size: 16px;">Customer Support via E-mail, Phone, and Chat</p>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+  
+      <div class=" m-3 w-100 col-12 col-sm-12 col-xs-12 order-3  order-sm-3">
+        <img src="./assets/pay.png"  width="40%" height="44px">
+      </div>   
+  
      </div>
    </div>
   </section>
@@ -282,13 +297,13 @@
         </div>
     </section>
 
-    <section id="signals">
-        <div class="container" >
+    <section class="container" id="signals">
+        <div class="card-body" >
             <div id="image-flow">
-                <img src="./assets/Vector 3 (Stroke).png" width="375px" height="200px">
+                <img src="./assets/Vector 3 (Stroke).png" width="275px" height="200px">
             </div>
-          <div class="" >
-            
+          <div class="text-center" >
+             
             <div id="signals-title">
                 <h1> Firebee Signals</h1>
                 <h3>A signal for every situation</h3>
@@ -298,35 +313,35 @@
         </div>
               
     </div>
-    
+           
             <div class="row" style="display: flex;">
-                <div class="col-md-4 col-sm-4 cards">
+                <div class="card-body col-3 col-md-4 col-sm-4 cards">
                     <div >
                         <img class="image-200" src="./assets/bedtime.png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
-                        <!-- <h1>30 Day Money Back Guarantee</h1> -->
+       
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class=" col-md-4 col-sm-4 cards">
-                    <div >
+                <div class="card-body col-md-4 col-sm-4 cards">
+                    <div>
                         <img class="image-200" src="./assets/deep-sleep.png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
-                        <!-- <h1>30 Day Money Back Guarantee</h1> -->
+       
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
+                <div class="card-body col-md-4 col-sm-4 cards">
                     <div >
                         <img class="image-200" src="./assets/relax.png" alt="Money Back Guarantee">
                     </div>
-                    <div  class="money1-text">
+                    <div class="money1-text">
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
+                <div class="card-body col-md-4 col-sm-4 cards">
                     <div >
                         <img class="image-200" src="./assets/calm.png" alt="Money Back Guarantee">
                     </div>
@@ -334,73 +349,75 @@
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
-                    <div >
+                <div class="card-body col-md-4 col-sm-4 cards">
+                    <div>
                         <img class="image-200" src="./assets/focus.png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
-                    <div >
+
+                <div class="card-body col-md-4 col-sm-4 cards">
+                    <div>
                         <img class="image-200" src="./assets/happy.png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
-                    <div >
+
+                <div class=" col-md-4 col-sm-4 cards">
+                    <div>
                         <img class="image-200" src="./assets/alert.png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 cards">
-                    <div >
+                <div class=" col-md-4 col-sm-4 cards">
+                    <div>
                         <img class="image-200" src="./assets/Vector (2).png" alt="Money Back Guarantee">
                     </div>
                     <div  class="money1-text">
                         <h5>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</h5>
                     </div>
                 </div>
-                <div class="image-flow-2"  style="width: auto;">
-                    <img src="./assets/Vector 3 (Stroke).png" width="375px" height="200px" >
+                <div class=" image-flow-2" style="width:275px; height:200px;" >
+                    <img src="./assets/Vector 3 (Stroke).png" width="275px" height="200px" >
                 </div>                
             </div>
-        
+            
     </section>
 
     <section id="present">
-        <div class="contanier">
+        <div class="contanier card-body">
             <h1 style="text-align: center;">What will Firebee do for me?</h1>
             <h5 style="text-align: center;">Firebee will help you gently nudge yourself into a different mental state</h5>
             <div class="row present-section" >
                 <div class="col-md-5 col-sm-4">
                     <img src="./assets/person_for_product.png" width="90%" height="90%">
                 </div>
-                <div  class="col-md-7 col-sm-4">
-                    <ul class="  " >
-                        <li class="  d-flex ">
+                <div  class="col-md-4 col-sm-4">
+                    <ul class="container" >
+                        <li class="card-body d-flex  ">
                             
                             <img src="./assets/Subtract.png" width="32px" height="32px" alt="Checkmark">
                             <span class=" ">Can’t sleep? Turn on the <strong id="deep-sleep"> deep sleep </strong> signal </span>
                         </li>
-                        <li class="  d-flex gap-2">
+                        <li class="card-body d-flex ">
                             <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
                             <span class=" ">Feeling tired? Turn on the <strong id="alert">alert </strong> signal </span>
                         </li>
-                        <li class="  d-flex gap-2">
+                        <li class="card-body d-flex ">
                             <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
                             <span class=" ">Feeling anxious? Turn on the <strong id="calm"> calm </strong> signal</span>
                         </li>
-                        <li class="  d-flex gap-2"> 
+                        <li class="card-body d-flex "> 
                             <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
                             <span class=" ">Feeling unproductive? Turn on the <strong id="focus"> focus  </strong> signal </span>
                         </li>
-                        <li class="  d-flex gap-2"> 
+                        <li class="card-body d-flex"> 
                             <img src="./assets/sign.jpg" width="28px" height="28px" alt="Checkmark">
                             <span class=" ">Feeling blue? Turn on the <strong id="happy"> happy </strong> signal </span>
                         </li>
@@ -420,22 +437,22 @@
 
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width"  > 
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width"  > 
                     <img src="./assets/gq.png"  >
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width">
                     <img src="./assets/the-guardian.png"  >
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width">
                     <img src="./assets/the-new-york.png"  >
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width">
                     <img src="./assets/mashable.png"  >
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width">
                     <img src="./assets/cw.png"  >
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-4 img_width">
+                <div class="col-2 col-md-2 col-sm-3 col-xs-4 img_width">
                     <img src="./assets/the-wall.png"  >
                 </div>
 
@@ -499,8 +516,8 @@
                 </div>
                 <div class="faq-item"> 
                     <h3 class="faq-question d-flex justify-content-between align-items-center">
-                        <span>How Does Firebee work?</span>
-                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer2">+</button>
+                        <span> Will Firebee Fit on My Head?</span>
+                        <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer3" aria-expanded="false" aria-controls="answer2">+</button>
                     </h3>
                     <div id="answer3" class="collapse faq-answer">
                         <p>Firebee has a fully adjustable headband you can adjust to fit comfortably and snug on your head.
@@ -509,7 +526,7 @@
                 </div>
                 <div class="faq-item"> 
                     <h3 class="faq-question d-flex justify-content-between align-items-center">
-                        <span>How Does Firebee work?</span>
+                        <span> What If I want the signal to stop? </span>
                         <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer2">+</button>
                     </h3>
                     <div id="answer4" class="collapse faq-answer">
@@ -518,13 +535,13 @@
                 </div>
                 <div class="faq-item"> 
                     <h3 class="faq-question d-flex justify-content-between align-items-center">
-                        <span>How Does Firebee work?</span>
+                        <span>How do you charge Firebee?</span>
                         <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#answer5" aria-expanded="false" aria-controls="answer2">+</button>
                     </h3>
                     <div id="answer5" class="collapse faq-answer">
                         <p>Firebee comes with a charging dock and a charging cable. Just set up the charging dock on a nightstand and plug it in. </p>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </section>
@@ -532,7 +549,7 @@
     <section >
         <div class="w-100 footer">
             <div class=" footer-item">
-            <div class="container d-flex p-5">
+            <div class="row container d-flex p-2">
                 <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" >
                 <h4>
                     <a>
@@ -560,7 +577,7 @@
                     </a>
                 </p>    
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-4 mx-4 gap-2" >
+                <div class="col-md-3 col-sm-6 col-xs-4 mx-4 " >
                 <h4>
                     <a>
                         Find Us On
@@ -597,14 +614,14 @@
             <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" > 
         
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2" > 
+            <div class="col-md-3 col-sm-6 col-xs-4 mx-auto gap-2"> 
                 
             </div>
         </div>
             <div class="footer-line"></div>
              
-            <div class="footer-image p-4 ">
-                <div class="d-flex justify-content-between "   >
+            <div class="footer-image p-4 card-body">
+                <div class="justify-content-between footer-title"   >
                     <img src="./assets/firebee.png" alt="Firebee Logo" width="214px" height="50px">
                     <h5 >Privacy Policy Terms of Service</h5>
                 </div>
@@ -636,6 +653,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
+
 <script>
     
     document.addEventListener('DOMContentLoaded', () => {
@@ -660,6 +678,25 @@
             });
         });
     });
+
+    const carousel = document.querySelector('#productCarousel');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+
+      
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener('click', () => {
+                carousel.carousel(index);
+            });
+        });
+
+      
+        carousel.addEventListener('slid.bs.carousel', (event) => {
+      
+            thumbnails.forEach(thumb => thumb.classList.remove('active'));
+
+      
+            thumbnails[event.to].classList.add('active');
+        });
     </script>
 </body>
 </html>
